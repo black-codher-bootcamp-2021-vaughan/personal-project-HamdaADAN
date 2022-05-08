@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
@@ -18,11 +17,14 @@ mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
 app.use(bodyParser.json());
 
 // IMPORT YOUR API ROUTES HERE
+const CONNECTION_URL = 'mongodb+srv://hamdamadan:skittles123@cluster0.tbur5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 // Below is just an example. Don't forget to delete it. 
 // It's importing and using everything from the profilesRoutes.js file and also passing app as a parameter for profileRoutes to use
-require("./routes/profilesRoutes")(app); 
+//require("./routes/profilesRoutes")(app); 
 
 const PORT = process.env.PORT;
+
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true})
 app.listen(PORT, () => {
   console.log(`API running on port ${PORT}`);
 });

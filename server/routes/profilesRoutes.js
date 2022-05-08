@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Profile = mongoose.model("profiles");
+const express = require ("express")
 
 const profileRoutes = (app) => {
   app.get(`/api/profile`, async (req, res) => {
