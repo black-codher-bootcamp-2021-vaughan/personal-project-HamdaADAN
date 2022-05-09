@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const Search = (props) => {
   const [keyword, setKeyword] = useState("");
   const handleSubmit = (event) => {
@@ -21,7 +22,7 @@ const Search = (props) => {
 
         <button> Search </button>
 
-        <p style={{ color: "pink" }}>
+        <p style={{ color: "Black" }}>
           <em>{keyword && "Keywords Typed: " + keyword}</em>
         </p>
       </form>

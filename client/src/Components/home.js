@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Typography, Grid, Container, card, cardMedia, CardHeader, CardContent, IconButton, DeletedOulined } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 const Home= () => {
 
     return (

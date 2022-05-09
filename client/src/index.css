@@ -13,7 +13,7 @@ code {
 }
 
 body {
-  background-color: rgb(235, 228, 228);
+  background-color: rgb(226, 255, 226);
 
 } 
 
@@ -23,5 +23,16 @@ body {
 }
 
 .input {
-  width: 80%;
+  width: 150%;
+
 }
+/* .search {
+  border: 100px solid rgb(201, 129, 129);
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #332a2a;
+}
+ */

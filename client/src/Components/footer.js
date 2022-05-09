@@ -1,4 +1,4 @@
-import { ClassNames } from '@emotion/react'
+
 import { Typography } from '@mui/system'
 import React from 'react'
 import { Container, Grid } from '@mui/material'
@@ -12,18 +12,24 @@ export default function Footer () {
                 <Grid container spacing={5}>
                     <Grid item xs={10}sm={4}>
                       
+                    <Box>
+                            <Link href="/home" color="inherit">
+                               Home
+                            </Link>
+                        </Box>
+                      
                         <Box>
-                            <Link href="/" color="inherit">
+                            <Link href="/about" color="inherit">
                                 About
                             </Link>
                         </Box>
                         <Box>
-                            <Link href="/" color="inherit">
-                                login
+                            <Link href="/login" color="inherit">
+                                Login
                             </Link>
                         </Box>
                         <Box>
-                            <Link href="/" color="inherit">
+                            <Link href="/volunteerform" color="inherit">
                                 Volunteer
                             </Link>
                         </Box>

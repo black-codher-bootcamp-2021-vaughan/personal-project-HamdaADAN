@@ -23,6 +23,8 @@ import SearchBar from './Components/searchBar';
 import Footer from './Components/footer';
 
 
+
+
 // const useStyles = makeStyles({});
 
 export default function App ( ){

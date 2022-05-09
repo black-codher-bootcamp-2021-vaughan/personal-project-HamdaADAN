@@ -9,8 +9,8 @@ import { Button } from '@material-ui/core';
 
 const Login=() => {
     const paperStyle={padding :10, height:'70vh', width:280, margin:"20px auto"}
-    const avatarStyle={backgroundColor:'pink'}
-    const btnstyle={margin: '8px 0'}
+    const avatarStyle={backgroundColor:'black'}
+    const btnstyle={margin: '8px 0', backgroundColor: 'black'}
     return (
        <Grid>
            <Paper elevation={20} style={paperStyle}>
