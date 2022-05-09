@@ -20,6 +20,7 @@ import NavBar from "./Components/NavBar"
 // import { makeStyles } from '@mui/styles';
 import { Typography } from '@material-ui/core';
 import SearchBar from './Components/searchBar';
+import Footer from './Components/footer';
 
 
 // const useStyles = makeStyles({});
@@ -32,6 +33,7 @@ export default function App ( ){
      <NavBar/>
      <SearchBar/>
  <Typography/>
+ <Footer/>
 <Router>
   <Route exact path= "/home" component={Home} />
   <Route exact path= "/login" component={Login}/>
