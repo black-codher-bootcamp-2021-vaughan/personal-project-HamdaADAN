@@ -46,7 +46,7 @@ export default function MenuAppBar() {
 
   return (
     <div className={classes.roots}> 
-    <AppBar position="sticky" style={{backgroundColor: "black"}}>
+    <AppBar position="sticky" style={{backgroundColor: "orange"}}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             Commnuity connect
