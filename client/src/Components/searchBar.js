@@ -11,7 +11,8 @@ const Search = (props) => {
     <div className="form-wrapper"> 
       <form onSubmit={(e) => handleSubmit(e)} >
         <label>
-          Search here
+          Search Here
+
           <input
             className="input"
             type="text"

@@ -33,30 +33,24 @@ export default function App ( ){
   // const classes = useStyles();
   return (
     <div> 
-
-    
-
-     <CardContent/>
- <Card/>
- <Typography/>
- <Footer/>
- <CardContent/>
- <SearchBar/>
-<div/>
-<Router>
 <div>
 <NavBar/>
+<CardContent/>
+ <Card/>
+ <Typography/>
+ <CardContent/>
+ <SearchBar/>
+</div>
+<Router>
+  <div>
+    
   <Route exact path= "/home" component={Home} />
   <Route exact path= "/login" component={Login}/>
   <Route exact path= "/about" component={About}/>
   <Route exact path= "/VolunteerForm" component={VolunteerForm} />
- 
-</div>
+  </div>
 </Router>
+<Footer/>
+</div>
   );
-  
 }
-   
- 
-
-

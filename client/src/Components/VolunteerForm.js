@@ -7,7 +7,7 @@ const VolunteerForm = () => {
                 
                 
                 
-                  <h1> hello world </h1>
+                  <h1> Volunteer here! </h1>
 
         </div>
     )

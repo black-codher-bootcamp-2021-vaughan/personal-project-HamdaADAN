@@ -49,7 +49,7 @@ export default function MenuAppBar() {
     <AppBar position="sticky" style={{backgroundColor: "orange"}}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Commnuity connect
+            community connect
           </Typography>
          
             <div>
