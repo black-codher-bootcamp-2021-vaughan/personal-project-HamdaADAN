@@ -6,7 +6,7 @@ const About = (props) => {
     <div className="header">
       <h1>About</h1>
      
-      <div className="page"> infomration about app  </div>
+      <div className="page"> infomration about the app  </div>
     </div>
   );
 };
